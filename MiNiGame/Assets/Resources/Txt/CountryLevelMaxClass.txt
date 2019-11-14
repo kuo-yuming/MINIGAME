@@ -1,0 +1,4 @@
+﻿國家,商業(MAX),科技(MAX),國防(MAX),近戰(MAX),遠攻(MAX),防禦(MAX)
+EMPIRE,5,5,5,5,5,5
+KINGDOM,5,5,5,5,5,5
+BUSINESS,5,5,5,5,5,5

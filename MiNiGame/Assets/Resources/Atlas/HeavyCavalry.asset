@@ -1,0 +1,342 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 125b9f6e6906d6e4897a443b3c12729c, type: 3}
+  m_Name: HeavyCavalry
+  m_EditorClassIdentifier: 
+  material: {fileID: 2100000, guid: df1cc51940c703c4d8ce2e49e67c7008, type: 2}
+  mSprites:
+  - name: HeavyCavalry_Attack_01
+    x: 171
+    y: 194
+    width: 54
+    height: 62
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 10
+    paddingRight: 0
+    paddingTop: 1
+    paddingBottom: 1
+  - name: HeavyCavalry_Attack_02
+    x: 169
+    y: 69
+    width: 54
+    height: 62
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 10
+    paddingRight: 0
+    paddingTop: 2
+    paddingBottom: 0
+  - name: HeavyCavalry_Attack_03
+    x: 114
+    y: 68
+    width: 54
+    height: 62
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 10
+    paddingRight: 0
+    paddingTop: 2
+    paddingBottom: 0
+  - name: HeavyCavalry_Attack_04
+    x: 59
+    y: 131
+    width: 56
+    height: 61
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 8
+    paddingRight: 0
+    paddingTop: 3
+    paddingBottom: 0
+  - name: HeavyCavalry_Attack_05
+    x: 65
+    y: 195
+    width: 56
+    height: 61
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 8
+    paddingRight: 0
+    paddingTop: 3
+    paddingBottom: 0
+  - name: HeavyCavalry_Attack_06
+    x: 279
+    y: 70
+    width: 52
+    height: 61
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 12
+    paddingRight: 0
+    paddingTop: 1
+    paddingBottom: 2
+  - name: HeavyCavalry_Attack_07
+    x: 171
+    y: 132
+    width: 52
+    height: 61
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 12
+    paddingRight: 0
+    paddingTop: 1
+    paddingBottom: 2
+  - name: HeavyCavalry_Attack_08
+    x: 281
+    y: 194
+    width: 52
+    height: 62
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 12
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 2
+  - name: HeavyCavalry_Attack_09
+    x: 169
+    y: 6
+    width: 54
+    height: 62
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 10
+    paddingRight: 0
+    paddingTop: 2
+    paddingBottom: 0
+  - name: HeavyCavalry_Attack_10
+    x: 226
+    y: 194
+    width: 54
+    height: 62
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 10
+    paddingRight: 0
+    paddingTop: 2
+    paddingBottom: 0
+  - name: HeavyCavalry_Attack_11
+    x: 224
+    y: 131
+    width: 54
+    height: 62
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 10
+    paddingRight: 0
+    paddingTop: 2
+    paddingBottom: 0
+  - name: HeavyCavalry_Dead_01
+    x: 0
+    y: 129
+    width: 58
+    height: 63
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 6
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 1
+  - name: HeavyCavalry_Dead_02
+    x: 0
+    y: 65
+    width: 58
+    height: 63
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 6
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 1
+  - name: HeavyCavalry_Dead_03
+    x: 0
+    y: 1
+    width: 58
+    height: 63
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 6
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 1
+  - name: HeavyCavalry_Dead_04
+    x: 279
+    y: 132
+    width: 54
+    height: 61
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 10
+    paddingRight: 0
+    paddingTop: 3
+    paddingBottom: 0
+  - name: HeavyCavalry_Dead_05
+    x: 224
+    y: 7
+    width: 54
+    height: 61
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 10
+    paddingRight: 0
+    paddingTop: 3
+    paddingBottom: 0
+  - name: HeavyCavalry_Dead_06
+    x: 224
+    y: 69
+    width: 54
+    height: 61
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 10
+    paddingRight: 0
+    paddingTop: 3
+    paddingBottom: 0
+  - name: HeavyCavalry_Dead_07
+    x: 340
+    y: 54
+    width: 59
+    height: 38
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 4
+    paddingRight: 1
+    paddingTop: 26
+    paddingBottom: 0
+  - name: HeavyCavalry_Dead_08
+    x: 332
+    y: 93
+    width: 59
+    height: 38
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 4
+    paddingRight: 1
+    paddingTop: 26
+    paddingBottom: 0
+  - name: HeavyCavalry_Dead_09
+    x: 279
+    y: 31
+    width: 60
+    height: 38
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 4
+    paddingRight: 0
+    paddingTop: 26
+    paddingBottom: 0
+  - name: HeavyCavalry_Ran_01
+    x: 116
+    y: 132
+    width: 54
+    height: 62
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 10
+    paddingRight: 0
+    paddingTop: 2
+    paddingBottom: 0
+  - name: HeavyCavalry_Ran_02
+    x: 114
+    y: 5
+    width: 54
+    height: 62
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 10
+    paddingRight: 0
+    paddingTop: 2
+    paddingBottom: 0
+  - name: HeavyCavalry_Ran_03
+    x: 59
+    y: 67
+    width: 54
+    height: 63
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 10
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 1
+  - name: HeavyCavalry_Ran_04
+    x: 59
+    y: 3
+    width: 54
+    height: 63
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 10
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 1
+  - name: HeavyCavalry_Stop_01
+    x: 0
+    y: 193
+    width: 64
+    height: 63
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 1
+  mPixelSize: 1
+  mReplacement: {fileID: 0}

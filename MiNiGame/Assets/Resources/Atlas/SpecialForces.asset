@@ -1,0 +1,342 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 125b9f6e6906d6e4897a443b3c12729c, type: 3}
+  m_Name: SpecialForces
+  m_EditorClassIdentifier: 
+  material: {fileID: 2100000, guid: 01b67e3c7ce605b42bdd39eb52c7e266, type: 2}
+  mSprites:
+  - name: SpecialForces_Attack_01
+    x: 60
+    y: 131
+    width: 55
+    height: 62
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 4
+    paddingRight: 5
+    paddingTop: 1
+    paddingBottom: 1
+  - name: SpecialForces_Attack_02
+    x: 116
+    y: 135
+    width: 55
+    height: 60
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 4
+    paddingRight: 5
+    paddingTop: 3
+    paddingBottom: 1
+  - name: SpecialForces_Attack_03
+    x: 169
+    y: 74
+    width: 55
+    height: 60
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 4
+    paddingRight: 5
+    paddingTop: 3
+    paddingBottom: 1
+  - name: SpecialForces_Attack_04
+    x: 112
+    y: 9
+    width: 56
+    height: 60
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 4
+    paddingRight: 4
+    paddingTop: 3
+    paddingBottom: 1
+  - name: SpecialForces_Attack_05
+    x: 112
+    y: 70
+    width: 56
+    height: 60
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 4
+    paddingRight: 4
+    paddingTop: 3
+    paddingBottom: 1
+  - name: SpecialForces_Attack_06
+    x: 225
+    y: 12
+    width: 53
+    height: 61
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 5
+    paddingRight: 6
+    paddingTop: 1
+    paddingBottom: 2
+  - name: SpecialForces_Attack_07
+    x: 279
+    y: 12
+    width: 53
+    height: 61
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 5
+    paddingRight: 6
+    paddingTop: 1
+    paddingBottom: 2
+  - name: SpecialForces_Attack_08
+    x: 0
+    y: 130
+    width: 59
+    height: 62
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 5
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 2
+  - name: SpecialForces_Attack_09
+    x: 169
+    y: 13
+    width: 55
+    height: 60
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 4
+    paddingRight: 5
+    paddingTop: 3
+    paddingBottom: 1
+  - name: SpecialForces_Attack_10
+    x: 225
+    y: 74
+    width: 55
+    height: 60
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 4
+    paddingRight: 5
+    paddingTop: 3
+    paddingBottom: 1
+  - name: SpecialForces_Attack_11
+    x: 172
+    y: 196
+    width: 55
+    height: 60
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 4
+    paddingRight: 5
+    paddingTop: 3
+    paddingBottom: 1
+  - name: SpecialForces_Dead_01
+    x: 0
+    y: 4
+    width: 55
+    height: 62
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 5
+    paddingRight: 4
+    paddingTop: 1
+    paddingBottom: 1
+  - name: SpecialForces_Dead_02
+    x: 0
+    y: 67
+    width: 55
+    height: 62
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 5
+    paddingRight: 4
+    paddingTop: 1
+    paddingBottom: 1
+  - name: SpecialForces_Dead_03
+    x: 60
+    y: 194
+    width: 55
+    height: 62
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 5
+    paddingRight: 4
+    paddingTop: 1
+    paddingBottom: 1
+  - name: SpecialForces_Dead_04
+    x: 281
+    y: 83
+    width: 55
+    height: 57
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 4
+    paddingRight: 5
+    paddingTop: 4
+    paddingBottom: 3
+  - name: SpecialForces_Dead_05
+    x: 228
+    y: 199
+    width: 55
+    height: 57
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 4
+    paddingRight: 5
+    paddingTop: 4
+    paddingBottom: 3
+  - name: SpecialForces_Dead_06
+    x: 228
+    y: 141
+    width: 55
+    height: 57
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 4
+    paddingRight: 5
+    paddingTop: 4
+    paddingBottom: 3
+  - name: SpecialForces_Dead_07
+    x: 391
+    y: 5
+    width: 57
+    height: 38
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 6
+    paddingRight: 1
+    paddingTop: 26
+    paddingBottom: 0
+  - name: SpecialForces_Dead_08
+    x: 333
+    y: 5
+    width: 57
+    height: 38
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 6
+    paddingRight: 1
+    paddingTop: 26
+    paddingBottom: 0
+  - name: SpecialForces_Dead_09
+    x: 333
+    y: 44
+    width: 58
+    height: 38
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 6
+    paddingRight: 0
+    paddingTop: 26
+    paddingBottom: 0
+  - name: SpecialForces_Ran_01
+    x: 172
+    y: 135
+    width: 55
+    height: 60
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 4
+    paddingRight: 5
+    paddingTop: 3
+    paddingBottom: 1
+  - name: SpecialForces_Ran_02
+    x: 116
+    y: 196
+    width: 55
+    height: 60
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 4
+    paddingRight: 5
+    paddingTop: 3
+    paddingBottom: 1
+  - name: SpecialForces_Ran_03
+    x: 56
+    y: 4
+    width: 55
+    height: 62
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 4
+    paddingRight: 5
+    paddingTop: 1
+    paddingBottom: 1
+  - name: SpecialForces_Ran_04
+    x: 56
+    y: 67
+    width: 55
+    height: 62
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 4
+    paddingRight: 5
+    paddingTop: 1
+    paddingBottom: 1
+  - name: SpecialForces_Stop_01
+    x: 0
+    y: 193
+    width: 59
+    height: 63
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 5
+    paddingTop: 0
+    paddingBottom: 1
+  mPixelSize: 1
+  mReplacement: {fileID: 0}
